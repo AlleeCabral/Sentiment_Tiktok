@@ -47,4 +47,4 @@ filename = f"data/raw/reddit_{post_id}_comments.json"
 with open(filename, "w") as f:
     json.dump(comments, f, indent=2)
 
-print(f"✅ Saved {len(comments)} comments to {filename}")
+print(f" Saved {len(comments)} comments to {filename}")
